@@ -1,1 +1,390 @@
 /* You can add global styles to this file, and also import other style files */
+.header {
+    width: 100%;
+}
+
+.logo {
+    color: #65737e;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container-search{
+    overflow: hidden;
+    width: auto;
+    vertical-align: middle;
+}
+
+.container-search input#search{
+    width: 100%;
+    height: 36px;
+    background: #fff;
+    border: none;
+    font-size: 10pt;
+    outline: none;
+    float: left;
+    color: #65737e;
+    padding-left: 15px;
+    -webkit-border-radius: .25rem;
+    -moz-border-radius: .25rem;
+    border-radius: .25rem;
+}
+
+.container-search input#search::-webkit-input-placeholder {
+    color: #65737e;
+}
+
+.container-search input#search:-moz-placeholder { /* Firefox 18- */
+    color: #65737e;  
+}
+
+.container-search input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: #65737e;  
+}
+
+.container-search input#search:-ms-input-placeholder {  
+    color: #65737e;  
+}
+
+.container-search button.icon{
+    -webkit-border-top-right-radius: .25rem;
+    -webkit-border-bottom-right-radius: .25rem;
+    -moz-border-radius-topright: .25rem;
+    -moz-border-radius-bottomright: .25rem;
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+
+    border: none;
+    background: #fff;
+    height: 35px;
+    width: 50px;
+    outline: none;
+    color: #4f5b66;
+    font-size: 10pt;
+    margin-left: -50px;
+}
+
+.btn-upload {
+    background-color: #65737e;
+    color: #fff;
+    font-size: 14px;
+}
+
+.btn-user {
+    background-color: #65737e;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+
+.user-head {
+    font-size: 16px;
+    color: #fff;
+    outline: none;
+    margin-top: 0px;
+}
+
+.user-subhead {
+    color: #fff;
+    outline: none;
+    font-size: 10px;
+}
+
+.list-menu {
+    width: 100%;
+    list-style: none;
+    padding: 10px 10px 10px 0;
+    margin: 0;
+}
+
+.list-menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.list-menu li:first-child{
+    margin: 0 10px 0 0;
+}
+
+.list-menu li a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.list-menu li a:hover {
+    opacity: 60%;
+}
+
+.card-thumb {
+    position: relative;
+    height: 315px;
+    margin-bottom: 15px;
+}
+
+.card {
+    position: relative;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.card-video-upload {
+    display: table;
+    height: 150px;
+    width: 100%;
+    background: #4f5b66;
+    color: #fff;
+}
+
+.card-video-upload .upload-box {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 30px;
+}
+
+.detail-card {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.title-card {
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.author {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #fff;
+}
+
+.thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.view {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.list-video-thumb {
+    display: flex;
+}
+.is-30 {
+    font-size: 30px;
+}
+
+.is-14 {
+    font-size: 14px;
+}
+
+.is-12 {
+    font-size: 12px;
+}
+
+a {
+    color: #4f5b66;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none !important;
+    color: #4f5b66;
+}
+
+.list-activity {
+    border-bottom: 2px solid #4f5b66;
+    border-top: 2px solid #4f5b66;
+}
+
+.list-channels {
+    border-bottom: 2px solid #4f5b66;
+    border-top: 2px solid #4f5b66;
+    padding-top:15px;
+}
+
+.card-activity {
+    margin: 15px 0;
+}
+
+.img-activity{
+    width: 120px;
+    height: 65px;
+    float: left;
+    margin-right: 10px;
+}
+
+.thumb-activity {
+    object-fit: cover;
+    width: 100%;
+    height: 65px;
+}
+
+.comment {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.detail-activity p {
+    font-size: 12px;
+}
+
+.plus-channel {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #4f5b66;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    display: none;
+}
+
+.card-channel:hover .plus-channel {
+    display: block;
+}
+
+.social-media ul {
+    list-style: none;
+    padding:0;
+}
+
+.social-media li {
+    display: inline-block;
+}
+
+.social-media li a {
+    margin-right: 10px;
+    background: #4f5b66;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+}
+
+.social-media li i {
+    font-size: 12px;
+    color: #fff;
+}
+
+.color-white {
+    color:white !important;
+}
+
+.copyrights {
+    color: #4f5b66;
+}
+
+.is-hide-mobile {
+    display: block !important;
+}
+
+.is-show-mobile {
+    display: none !important;
+}
+
+.priv-menu .list-menu {
+    padding: 20px 0;
+}
+
+.is-hidden {
+    display: none;
+}
+
+.pl-hide-desktop {
+    padding-left: 0;
+}
+
+.pr-hide-desktop {
+    padding-right: 0;
+}
+
+@media(max-width: 700px){
+    .pl-hide-desktop {
+        padding-left: 15px !important;
+    }
+    .pr-hide-desktop {
+        padding-right: 15px !important;
+    }
+    .is-hide-mobile {
+        display: none !important;
+    }
+    .is-show-mobile {
+        display: block !important;
+    }
+    .center-mobile {
+        text-align: center !important;
+    }
+    .mb-m-1 {
+        margin-bottom: 10px;
+    }
+    .mb-m-2 {
+        margin-bottom: 20px;
+    }
+    .mt-m-4 {
+        margin-top: 20px;
+    }
+    .is-mobile-125 {
+        width: 125px;
+    }
+    .list-menu li:first-child {
+        margin: 0 10px 0 10px;
+    }
+    .logo {
+        position: relative;
+        bottom: 5px;
+    }
+    .list-channels {
+        display: block !important;
+    }
+    .header {
+        width: auto !important;
+    }
+    .social-media {
+        margin-top: 10px;
+    }
+}
+
+.list-channels {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu-mobile {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 0;
+    text-align: center;
+}
+
+.menu-mobile li {
+    margin: 10px 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menu-mobile li:first-child {
+    margin: 0 0 10px 0;
+}
+
+.card-video-list:last-child {
+    margin-left: 15px;
+}

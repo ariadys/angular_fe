@@ -1,0 +1,55 @@
+{
+
+   "videos": {
+      "featured":[
+         {"id":1, "author": "Jimmy Gerry", "title": "What you think?", "videoUrl": "#", "thumbUrl": "https://source.unsplash.com/random?product,building", "views": 123221}
+      ],
+      "data":[
+         {"id":2, "author": "Samuel Antonio", "title": "What you think1?", "videoUrl": "#", "thumbUrl": "https://source.unsplash.com/random?drink", "views": 4113},
+         {"id":3, "author": "John Doe", "title": "What you think1?", "videoUrl": "#", "thumbUrl": "https://source.unsplash.com/random?coffe", "views": 2231},
+         {"id":4, "author": "Cassandra Angelie", "title": "What you think1?", "videoUrl": "#", "thumbUrl": "https://source.unsplash.com/random?rainbow", "views": 2138},
+         {"id":5, "author": "Gill Derrent", "title": "What you think1?", "videoUrl": "#", "thumbUrl": "https://source.unsplash.com/random?chair", "views": 1358}
+      ]
+   },
+   "activities": [
+      {"id": 1, "name": "Johan", "type": "comment", "message": "Frankness applauded by supported ye household. Collected favourite now for for and rapturous repulsive consulted. An seems green be wrote again.", "time": "2 minutes ago", "thumbUrl": "https://source.unsplash.com/random?child"},
+      {"id": 2, "name": "Silva", "type": "video", "message": "Both rest of know draw fond post as. It agreement defective to excellent. Feebly do engage of narrow. Extensive repulsive belonging depending if promotion be zealously as.", "time": "2 hours ago", "thumbUrl": "https://source.unsplash.com/random?pot"},
+      {"id": 3, "name": "Gutto", "type": "document", "message": "Preference inquietude ask now are dispatched led appearance.", "time": "3 hours ago", "thumbUrl": "https://source.unsplash.com/random?bird"},
+      {"id": 4, "name": "Ray", "type": "video", "message": "Acceptance middletons me if discretion boisterous travelling an. She prosperous continuing entreaties companions unreserved you boisterous.", "time": "4 hours ago", "thumbUrl": "https://source.unsplash.com/random?tea"},
+      {"id": 5, "name": "Muson", "type": "document", "message": "Attended no indulged marriage is to judgment offering landlord. ", "time": "5 hours ago", "thumbUrl": "https://source.unsplash.com/random?jungle"},
+      {"id": 6, "name": "Darius", "type": "comment", "message": "An seems green be wrote again. She add what own only like. Tolerably we as extremity exquisite do commanded.", "time": "8 hours ago", "thumbUrl": "https://source.unsplash.com/random?ice"}
+   ],
+   "people": {
+      "featured":[
+         {"id":1, "name": "Waves Grills", "skills": "Web and Apps Developer", "thumbUrl": "https://source.unsplash.com/random?office", "views": 5611}
+      ],
+      "data":[
+         {"id":2, "name": "Ray Ronn", "skills": "Web and Apps Developer", "thumbUrl": "https://source.unsplash.com/random?tie", "views": 4413},
+         {"id":3, "name": "Jimmy N", "skills": "Web and Apps Developer", "thumbUrl": "https://source.unsplash.com/random?flower", "views": 3113},
+         {"id":4, "name": "Hasan Vierri", "skills": "Web and Apps Developer", "thumbUrl": "https://source.unsplash.com/random?elephant", "views": 2145},
+         {"id":5, "name": "Julia S", "skills": "Web and Apps Developer", "thumbUrl": "https://source.unsplash.com/random?kid", "views": 1141}
+      ]
+   },
+   "documents": {
+      "featured":[
+         {"id":1, "title": "Mobile UI & UX guide 2013", "author": "William Makhoja", "thumbUrl": "https://source.unsplash.com/random?phone", "views": 9812}
+      ],
+      "data":[
+         {"id":2, "title": "2013 Marketing Trend", "author": "Julio", "thumbUrl": "https://source.unsplash.com/random?keyboard", "views": 9812},
+         {"id":3, "title": "2012 Marketing Value", "author": "Sentra", "thumbUrl": "https://source.unsplash.com/random?mouse", "views": 7622},
+         {"id":4, "title": "HTML 5 and Usage", "author": "Nasty", "thumbUrl": "https://source.unsplash.com/random?monitor", "views": 5123},
+         {"id":5, "title": "How to become an expert?", "author": "Retta", "thumbUrl": "https://source.unsplash.com/random?computer", "views": 3411}
+      ]
+   },
+   "channels": [
+      {"id": 1, "title": "Google", "url": "#", "thumbUrl": "https://source.unsplash.com/random?product"},
+      {"id": 2, "title": "Dribble", "url": "#", "thumbUrl": "https://source.unsplash.com/random?country,flag"},
+      {"id": 3, "title": "Microsoft", "url": "#", "thumbUrl": "https://source.unsplash.com/random?glass"},
+      {"id": 4, "title": "Behance", "url": "#", "thumbUrl": "https://source.unsplash.com/random?helm"},
+      {"id": 5, "title": "Weather Channel", "url": "#", "thumbUrl": "https://source.unsplash.com/random?animal,food"},
+      {"id": 6, "title": "Gurus", "url": "#", "thumbUrl": "https://source.unsplash.com/random?store"},
+      {"id": 7, "title": "iMedia", "url": "#", "thumbUrl": "https://source.unsplash.com/random?nature,universe"},
+      {"id": 8, "title": "Creativeye", "url": "#", "thumbUrl": "https://source.unsplash.com/random?city,night"}
+   ]
+
+}
